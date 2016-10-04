@@ -7,13 +7,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=0">
 		<title>UTS Lost and Found - release 1</title>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-		<link rel="stylesheet" href="style.css"> <!--link to the main css stylesheet-->
+		<link rel="stylesheet" href="../../public/css/style.css"> <!--link to the main css stylesheet-->
 	</head>
 
 <body>
 	<div class="logincontainer">
 
-	<img id="loginlogo" src="bLogo.png">
+	<img id="loginlogo" src="../../public/images/bLogo.png">
 
 		<form action="login.php">
 			Username:<br>
@@ -28,7 +28,7 @@
 		</form>
 
 		<div class="loginbuttoncontainer">
-			<a href="mylostitems.html">
+			<a href="mylostitems.php">
 	                    <button id="btn">
 	                      Login
 	                    </button>
@@ -37,7 +37,7 @@
 		
 
 		<div class="loginback">
-			<a href="index.html"><img id="loginbackbtn" src="arrow_back.png" alt="Return"></a>
+			<a href="index.php"><img id="loginbackbtn" src="../../public/images/arrow_back.png" alt="Return"></a>
 		</div>
 	</div>
 </body>

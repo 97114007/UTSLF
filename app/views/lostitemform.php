@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=0">
     <title>UTS Lost and Found - release 1</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../public/css/style.css">
   </head>
   <body>
 
 	<!-- New lost item form !-->
       <header>
 	<div class="whiteheader">
-	   <a href="mylostitems.html"><img id="returnimg" src="arrow_back.png" alt="Return"></a>
+	   <a href="mylostitems.php"><img id="returnimg" src="../../public/images/arrow_back.png" alt="Return"></a>
           <span>New Lost Item Form</span>
         </div>
       </header>

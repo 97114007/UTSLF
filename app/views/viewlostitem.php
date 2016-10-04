@@ -8,16 +8,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=0">
 		<title>UTS Lost and Found - release 1</title>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-		<link rel="stylesheet" href="style.css"> <!--link to the main css stylesheet-->
+		<link rel="stylesheet" href="../../public/css/style.css"> <!--link to the main css stylesheet-->
 	</head>
 
 	<body>
 		<header>
 		<div class="currentLostItems">
 			<div class="blueheader">
- 				<a href="mylostitems.html"><img id="returnimg" src="arrow_back_white.png" alt="Return"></a>
+ 				<a href="mylostitems.php"><img id="returnimg" src="../../public/images/arrow_back_white.png" alt="Return"></a>
 					<span>Lost Item</span>
-				<img id="logo" src="logo.png" alt="logo">
+				<img id="logo" src="../../public/images/logo.png" alt="logo">
 			</div>
 		</header>
 
@@ -26,7 +26,7 @@
 
 				<div class="viewItemCard"> <!--This div is for each of the individiual lost item -->
 					<div class="cardInfo">
-						<img id="cardImg" src="iphonelogo.png" alt="logo">
+						<img id="cardImg" src="../../public/images/iphonelogo.png" alt="logo">
 						<p class="nospace"><strong>iPhone 6</strong></p>
 						<p class="nospace">Date Lost: 21/09/16</p>
 						<p class="nospace">Status: Not yet found</p>
@@ -35,12 +35,12 @@
 						<p class="nospace">Location Lost: Building 11</p>
 						<p class="nospace">Additional Comments: Blue phone case</p>
 						<p class="nospace">Picture:</p>
-						<img id="viewItemPic" src="iphonepic.jpg" alt="logo">
+						<img id="viewItemPic" src="../../public/images/iphonepic.jpg" alt="logo">
 					</div>
 						<hr>
 					<div id="individualCurrentLostItemBodyBtn">
-					  <div class="inner"><a href="mylostitems.html"><button type="individualCurrentLostItemBodyBtn" id="cardBtn">EXIT</button></a></div>
-					  <div class="inner"><a href="editlostitem.html"><button type="individualCurrentLostItemBodyBtn" id="cardBtn">EDIT</button></a></div>
+					  <div class="inner"><a href="mylostitems.php"><button type="individualCurrentLostItemBodyBtn" id="cardBtn">EXIT</button></a></div>
+					  <div class="inner"><a href="editlostitem.php"><button type="individualCurrentLostItemBodyBtn" id="cardBtn">EDIT</button></a></div>
 						<div class="inner"><button type="individualCurrentLostItemBodyBtn" id="cardBtn">ARCHIVE</button></div>
 					</div>
 				</div>
